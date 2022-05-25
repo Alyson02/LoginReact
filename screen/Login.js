@@ -17,6 +17,13 @@ export default function Login({navigation}) {
             routes: [{name: "Principal"}]
         })
     }
+
+    const cadastrar = () => {
+      navigation.reset({
+          index: 0,
+          routes: [{name: "Cadastro"}]
+      })
+    }
   
     return (
     <View style={styles.container}>
@@ -45,6 +52,19 @@ export default function Login({navigation}) {
       title="Entrar"
       onPress={()=>entrar()}
        />
+
+      <Button
+        icon={
+          <Icon
+          name="check"
+          size={15}
+          color="white"
+          />
+        }
+        title="Cadastrar"
+        onPress={()=>cadastrar()}
+       />
+
     </View>
   );
 }
