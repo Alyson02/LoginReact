@@ -20,11 +20,11 @@ function Feed(){
             style={{ padding: 0 }}
             source={{
               uri:
-                'https://tm.ibxk.com.br/2021/11/09/09191733039114.jpg?ims=1200x675',
+                'https://cdn.pichau.com.br/wysiwyg/Descricao/Asus/TUF-GAMING-B550-PLUS/TUF-GAMING-B550-PLUS3.png',
             }}
           />
           <Text style={{ marginBottom: 10, color: '#fefe', fontSize:20 }}>
-            Quais as chances do revolucionario jogo da from vencer o GOTY?
+            Placa mãe ASUS TUF b550
           </Text>
           <Button
             icon={
@@ -38,7 +38,7 @@ function Feed(){
             type="outline"
             titleStyle={styles.botao}
             buttonStyle={styleCard.botao}
-            title="Ler artigo"
+            title="R$ 750"
           />
         </Card>
         <Card containerStyle={{backgroundColor:'#18191a', borderColor:'#9400BD'}}>
@@ -48,11 +48,11 @@ function Feed(){
             style={{ padding: 0 }}
             source={{
               uri:
-                'https://assets.reedpopcdn.com/respawn-a-trabalhar-ja-num-novo-jogo-de-star-wars-1576668174267.jpg/BROK/thumbnail/1600x900/quality/100/respawn-a-trabalhar-ja-num-novo-jogo-de-star-wars-1576668174267.jpg',
+                'https://www.navegamer.com.br/image/cache/catalog/--250222-vitrine-s-bg/Urano%20AA01_G1903-300x300.png',
             }}
           />
           <Text style={{ marginBottom: 10, color: '#fefe', fontSize:20 }}>
-            EA voltando a produzir ótimos jogos? Veja tudo sobre o novo Star Wars Respown
+            Computadore Gamer FireOrange Ryzen 7 5700x GTX 2060 32GB 3200MHZ SSD 1TB
           </Text>
           <Button
             icon={
@@ -66,7 +66,7 @@ function Feed(){
             type="outline"
             titleStyle={styles.botao}
             buttonStyle={styleCard.botao}
-            title="Ler artigo"
+            title="R$ 6000"
           />
         </Card>
         <Card containerStyle={{backgroundColor:'#18191a', borderColor:'#9400BD'}}>
@@ -76,11 +76,11 @@ function Feed(){
             style={{ padding: 0 }}
             source={{
               uri:
-                'https://valedopontar.com.br/wp-content/uploads/2021/11/cyberpunk-2077-e-gdr-profondo-the-witcher-3-parola-cd-projekt-v3-462715-1280x720-1.jpg',
+                'https://livrariascuritiba.vteximg.com.br/arquivos/ids/1898947/in027108_1.jpg?v=637160298364370000',
             }}
           />
           <Text style={{ marginBottom: 10, color: '#fefe', fontSize:20 }}>
-            CD Project Red conserta Cyberpunk e promete novo The Witcher
+            Teclado Gamer Logitech G213
           </Text>
           <Button
             icon={
@@ -94,7 +94,7 @@ function Feed(){
             type="outline"
             titleStyle={styles.botao}
             buttonStyle={styleCard.botao}
-            title="Ler artigo"
+            title="R$ 250"
           />
         </Card>
       </View>
@@ -105,18 +105,18 @@ function Feed(){
 function Profile(){
     const users = [
     {
-        name: 'Rengoku',
+        name: 'Hardware',
         avatar:
-        'https://nerdhits.com.br/wp-content/uploads/2021/09/rengoku-cosplay-1200x900.jpg',
+        'https://www.notebookcheck.info/fileadmin/Notebooks/NVIDIA/Turing/nvidia_TU117_chip.jpg',
     },
     {
-        name: 'Gojo',
-        avatar: 'https://ovicio.com.br/wp-content/uploads/2021/03/20210305-jujutsu-kaisen-gojo-origin-1259366-730x365.jpeg',
+        name: 'Perféricos',
+        avatar: 'https://tm.ibxk.com.br/2021/06/03/03094039542059.jpg?ims=704x264',
     },
     {
-        name: 'Draken',
+        name: 'Computadores',
         avatar:
-        'https://1.bp.blogspot.com/-J8ijK6EEmGI/YRpzfdG11dI/AAAAAAAACXE/Cs86Yb9V-ogYnpf9CeFHWrBkDuglbw2mQCNcBGAsYHQ/s500/Draken%2BTokyo%2BRevengers.jpg',
+        'https://rocketz.com.br/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBWms9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--75bbc3763ae3d50875cc3bc1045623e3085fa253/pc-gamer-atlas-top.jpg',
     },
     ];
 
@@ -124,7 +124,7 @@ function Profile(){
         <ScrollView style={{backgroundColor: '#18191a'}}>
             <View style={styleCard.container}>
             <Card containerStyle={{backgroundColor:'#18191a', borderColor:'#9400BD'}}>
-                <Card.Title style={{color: '#fefe', fontSize: 24}}>Escritores</Card.Title>
+                <Card.Title style={{color: '#fefe', fontSize: 24}}>Departamentos</Card.Title>
                 <Card.Divider style={{backgroundColor:'#9400BD'}} />
                 {users.map((u, i) => {
                 return (
