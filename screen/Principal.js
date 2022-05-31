@@ -13,6 +13,9 @@ function Feed(){
     return(
     <ScrollView style={{backgroundColor: '#18191a'}}>
       <View style={styleCard.container}>
+        <Text style={{ marginBottom: 10, color: '#fefe', fontSize:20, marginLeft: 13,  }}>
+          Produtos Destaques
+        </Text>
         <Card containerStyle={{backgroundColor:'#18191a', borderColor:'#9400BD'}}>
           <Card.Title style={{color: '#fefe', fontSize:24}}>Elden Ring</Card.Title>
           <Card.Divider style={{backgroundColor:'#9400BD'}}/>
@@ -69,7 +72,7 @@ function Feed(){
             title="R$ 6000"
           />
         </Card>
-        <Card containerStyle={{backgroundColor:'#18191a', borderColor:'#9400BD'}}>
+        z<Card containerStyle={{backgroundColor:'#18191a', borderColor:'#9400BD'}}>
           <Card.Title style={{color: '#fefe', fontSize: 24}}>Elden Ring</Card.Title>
           <Card.Divider style={{backgroundColor:'#9400BD'}}/>
           <Card.Image
