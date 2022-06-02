@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native-web";
 const styleCard = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#18191a'
+      backgroundColor: '#1C1D1F'
     },
     fonts: {
       marginBottom: 8,

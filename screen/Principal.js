@@ -11,14 +11,12 @@ import styleCard from "../style/estiloCard";
 function Feed(){
     
     return(
-    <ScrollView style={{backgroundColor: '#18191a'}}>
+    <ScrollView style={{backgroundColor: '#1C1D1F'}}>
       <View style={styleCard.container}>
-        <Text style={{ marginBottom: 10, color: '#fefe', fontSize:20, marginLeft: 13,  }}>
+        <Text style={{ marginBottom: 10, color: '#9400BD', fontSize:30, textAlign: 'center'}}>
           Produtos Destaques
         </Text>
-        <Card containerStyle={{backgroundColor:'#18191a', borderColor:'#9400BD'}}>
-          <Card.Title style={{color: '#fefe', fontSize:24}}>Elden Ring</Card.Title>
-          <Card.Divider style={{backgroundColor:'#9400BD'}}/>
+        <Card containerStyle={{backgroundColor:'#131414', borderColor:'#9400BD'}}>
           <Card.Image
             style={{ padding: 0 }}
             source={{
@@ -44,9 +42,7 @@ function Feed(){
             title="R$ 750"
           />
         </Card>
-        <Card containerStyle={{backgroundColor:'#18191a', borderColor:'#9400BD'}}>
-          <Card.Title style={{color: '#fefe', fontSize: 24}}>Elden Ring</Card.Title>
-          <Card.Divider style={{backgroundColor:'#9400BD'}}/>
+        <Card containerStyle={{backgroundColor:'#131414', borderColor:'#9400BD'}}>
           <Card.Image
             style={{ padding: 0 }}
             source={{
@@ -72,9 +68,7 @@ function Feed(){
             title="R$ 6000"
           />
         </Card>
-        z<Card containerStyle={{backgroundColor:'#18191a', borderColor:'#9400BD'}}>
-          <Card.Title style={{color: '#fefe', fontSize: 24}}>Elden Ring</Card.Title>
-          <Card.Divider style={{backgroundColor:'#9400BD'}}/>
+        <Card containerStyle={{backgroundColor:'#131414', borderColor:'#9400BD'}}>
           <Card.Image
             style={{ padding: 0 }}
             source={{
